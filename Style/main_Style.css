@@ -1,0 +1,32 @@
+main #sobre-mi {
+    margin: 0rem 2.5rem;
+}
+
+main #portfolio {
+    padding: 0rem 2rem;
+    margin-top: 2rem;
+}
+
+main #contacto {
+    margin: 0rem 2.5rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 1024px) {
+    
+    main #portfolio {
+        box-sizing: border-box;
+        max-width: 1410px;
+        border-radius: 20px;
+    }
+
+    main #contacto {
+        max-width: 1410px;
+        width: 100%;
+    }
+}

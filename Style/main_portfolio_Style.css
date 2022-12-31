@@ -1,0 +1,48 @@
+#portfolio{
+    background-color: var(--backgroundPortfolio);
+    width: 99vw;
+}
+
+#portfolio h2 {
+    color: black;
+    padding-top: 2rem;
+}
+
+.proyecto {
+    background: #e8f4fc;
+    text-decoration: none;
+}
+
+.proyectos {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem 0rem;
+    gap: 1rem;
+    justify-content: center;
+}
+
+#portfolio article {
+    margin: 2rem 0rem 2rem 0rem;
+}
+
+.proyJava {
+    padding-bottom: 3rem;
+}
+
+/* -------------- Media query para desktop--------------  */
+
+@media (min-width: 1024px) {
+
+#portfolio {
+    background-color: white;
+}
+
+#portfolio h2 {
+    color: var(--colorSubtitulos);
+}
+
+.proyectos {
+    gap: 3rem;
+    justify-content: flex-start;
+}
+}
