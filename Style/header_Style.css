@@ -233,6 +233,7 @@ ul li .opciones{
 
 .opciones:hover {
     background-color: rgba(73, 78, 102, 0.8);
+    transition: 0.3s;
 }
 .header-pt2 {
     display: block;

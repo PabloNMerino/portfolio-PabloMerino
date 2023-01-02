@@ -51,8 +51,9 @@ footer {
     color: var(--colorSubtitulos);
 }
 
-.iconos-footer a :active {
-    background-color: #D3D3D3;
+.iconos-footer a :hover {
+    background-color: #095f87;
+    transition: 0.5s;
 }
 
 /* -------------- Media query para tablet --------------  */
