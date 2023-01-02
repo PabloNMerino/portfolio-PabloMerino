@@ -57,7 +57,7 @@ const enviarEmail = (e) => {
         body: new FormData (e.target)
     }
 
-    fetch("https://formsubmit.co/pablonicolasm@hotmail.com", settings)
+    fetch("https://formbold.com/s/oJkB6", settings)
     .then (res => res.ok? res.json() : Promise.reject(res))
     .then (data => console.log(data))
 }
