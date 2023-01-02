@@ -1,5 +1,11 @@
 const proyectosJs = [
     {
+        titulo: "Portfolio",
+        imgUrl: "img/online-resume.png",
+        url: "https://github.com/PabloNMerino/portfolio-PabloMerino",
+        descripcion: "logo portfolio Pablo Merino"
+    },
+    {
         titulo: "To Do App",
         imgUrl: "img/list.png",
         url: "https://github.com/PabloNMerino/Front-end-2---JS/tree/main/To%20Do%20app",
