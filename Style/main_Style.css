@@ -21,12 +21,12 @@ main {
     
     main #portfolio {
         box-sizing: border-box;
-        max-width: 1410px;
+        max-width: 1620px;
         border-radius: 20px;
     }
 
     main #contacto {
-        max-width: 1410px;
+        max-width: 1620px;
         width: 100%;
     }
 }

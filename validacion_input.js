@@ -69,6 +69,7 @@ const confirmarEnvio = () => {
         boton.innerHTML= "<p>Enviado!</p>"
         boton.style.backgroundColor = "green"
         formulario.reset();
+        boton.disabled = true;
     }, 1000);
     
 }
