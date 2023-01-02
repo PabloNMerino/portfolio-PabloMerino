@@ -31,6 +31,7 @@ formulario.addEventListener("submit", event => {
 
     if( nombreValidado && emailValidado && temaValidado && msjValidado) {
         enviarEmail(event);
+        confirmarEnvio();
     }
 })
 
@@ -49,25 +50,25 @@ const validarEmail = emailForm => {
     return !(regexEmail.test(emailForm)) ? false : true;
     }
 
-const enviarEmail = (event) => {
-    const payload = {
-        nombre: nombre.value,
-        email: email.value,
-        tema: tema.value,
-        mensaje: mensaje.value
-    }
+const enviarEmail = (e) => {
 
     const settings = {
         method: 'POST',
-        body: JSON.stringify(payload),
-        headers: { 
-            'Content-type' : 'application/json'
-        }
+        body: new FormData (e.target)
     }
 
-    fetch("https://formsubmit.co/2ae76532751df1bf98a4e0d927121fec", settings)
-    .then (response => {console.log("listo")})
+    fetch("https://formsubmit.co/pablonicolasm@hotmail.com", settings)
+    .then (res => res.ok? res.json() : Promise.reject(res))
+    .then (data => console.log(data))
+}
 
+const confirmarEnvio = () => {
+    boton.innerHTML="";
+    boton.innerHTML= '<img src="/img/cargando.png" alt="cargando" class="cargando">'
+    setTimeout(() => {
+        boton.innerHTML= "<p>Enviado!</p>"
+        boton.style.backgroundColor = "green"
+        formulario.reset();
+    }, 1000);
     
-    }
-
+}

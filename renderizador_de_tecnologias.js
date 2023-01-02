@@ -38,6 +38,11 @@ const tarjetasTecnologias = [
         imgUrl: "img/testing.png",
         alt: "testing",
         nombreDeTecnologia: "Testing"
+    },
+    {
+        imgUrl: "img/agil.png",
+        alt: "metodologias agiles",
+        nombreDeTecnologia: "Metodologias Agiles"
     }
 ]
 

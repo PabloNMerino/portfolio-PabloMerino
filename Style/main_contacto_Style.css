@@ -134,6 +134,19 @@ input:focus {
     font-size: 1.2rem;
 }
 
+@keyframes rotar {
+    from {
+        transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+.cargando {
+    width: 25px;
+    animation: rotar 2s;
+}
 
 /* -------------- Media query para tablet --------------  */
 
