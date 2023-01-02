@@ -64,7 +64,7 @@ const enviarEmail = (e) => {
 
 const confirmarEnvio = () => {
     boton.innerHTML="";
-    boton.innerHTML= '<img src="/img/cargando.png" alt="cargando" class="cargando">'
+    boton.innerHTML= '<img src="img/cargando.png" alt="cargando" class="cargando">'
     setTimeout(() => {
         boton.innerHTML= "<p>Enviado!</p>"
         boton.style.backgroundColor = "green"
