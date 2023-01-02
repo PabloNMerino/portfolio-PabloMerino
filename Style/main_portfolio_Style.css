@@ -35,6 +35,26 @@
     padding-bottom: 3rem;
 }
 
+#portfolio .caja:active {
+    background-color: #095f87;
+    transition: 0s;
+}
+
+/* -------------- Media query para tablet --------------  */
+
+@media (min-width: 767px) {
+
+    #portfolio .caja:hover {
+        transform: scale(1.1);
+        transition: 0.5s;    
+    }
+
+    #portfolio .caja:active {
+        transition: 0s;
+    }
+
+}
+
 /* -------------- Media query para desktop--------------  */
 
 @media (min-width: 1024px) {
