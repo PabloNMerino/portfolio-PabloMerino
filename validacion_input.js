@@ -5,28 +5,45 @@ const mensaje = document.querySelector(".input-mensaje");
 const formulario = document.querySelector("#formulario");
 const boton = document.querySelector(".boton");
 
+let nombreValidado;
+let emailValidado;
+let temaValidado;
+let msjValidado;
+
 /*-------------- Capturamos clases de formulario --------------*/
 const errorNombre = document.querySelector(".error-name");
 const errorEmail = document.querySelector(".error-email");
 const errorTema = document.querySelector(".error-tema");
 const errorMensaje = document.querySelector(".error-msj");
 
+/*--------------- Chequeamos cada input ---------------*/
 
+nombre.addEventListener ("blur", () =>{
+    nombreValidado = validarCampo(nombre.value);
+    !nombreValidado ? errorNombre.style.visibility = "visible" : errorNombre.style.visibility = "hidden";
+})
+
+email.addEventListener ("blur", () =>{
+    emailValidado = validarEmail(email.value);
+    !emailValidado ? errorEmail.style.visibility = "visible" : errorEmail.style.visibility = "hidden";
+})
+
+tema.addEventListener ("blur", () =>{
+    temaValidado = validarCampo(tema.value);
+    !temaValidado ? errorTema.style.visibility = "visible" : errorTema.style.visibility = "hidden";
+})
+
+mensaje.addEventListener ("blur", () =>{
+    msjValidado = validarCampo(mensaje.value);
+    !msjValidado ? errorMensaje.style.visibility = "visible" : errorMensaje.style.visibility = "hidden";
+})
 
 formulario.addEventListener("submit", event => {
     event.preventDefault();
 
-    let nombreValidado = validarCampo(nombre.value);
-    let emailValidado = validarEmail(email.value);
-    let temaValidado = validarCampo(tema.value);
-    let msjValidado = validarCampo(mensaje.value);
-
     !nombreValidado ? errorNombre.style.visibility = "visible" : errorNombre.style.visibility = "hidden";
-
     !emailValidado ? errorEmail.style.visibility = "visible" : errorEmail.style.visibility = "hidden";
-
     !temaValidado ? errorTema.style.visibility = "visible" : errorTema.style.visibility = "hidden";
-
     !msjValidado ? errorMensaje.style.visibility = "visible" : errorMensaje.style.visibility = "hidden";
 
     if( nombreValidado && emailValidado && temaValidado && msjValidado) {
