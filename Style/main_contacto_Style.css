@@ -1,73 +1,71 @@
 .informacion-de-contacto {
-    width: 80vw;
-    border-radius: 0px;
     background: white;
-    box-shadow:  6px 6px 12px #8b8b8b,
-                -6px -6px 12px #ffffff;
-    margin: 3rem 0rem 3rem 0rem;
+    border-radius: 0px;
+    border-radius: 2rem;
+    box-shadow:  6px 6px 12px #8b8b8b, -6px -6px 12px #ffffff;
     display: flex;
     flex-direction: column;
+    margin: 3rem 0rem 3rem 0rem;
     padding-bottom: 2rem;
-    border-radius: 2rem;
+    width: 80vw;
     }
 
 .ubicacion, .email, .telefono {
-    display: flex;
     align-items:flex-start;
-    margin-top: 2rem;
+    display: flex;
     gap: 2rem;
+    margin-top: 2rem;
     padding-left: 2rem;
 }
 
 .ubicacion .fondo-icono-contacto, .email .fondo-icono-contacto, .telefono .fondo-icono-contacto {
-    width: 44px;
-    min-width: 44px;
-    height: 44px;
-    background-color: rgba(20, 157, 221, 0.2);
-    display: flex;
     align-items: center;
-    justify-content: center;
+    background-color: rgba(20, 157, 221, 0.2);
     border-radius: 50%;
+    display: flex;
+    height: 44px;
+    justify-content: center;
+    min-width: 44px;
+    width: 44px;
 }
 
 .detalles-contacto {
     color: #173b6c;
-    font-weight: 300;
     font-size: 1.5rem;
+    font-weight: 300;
 }
 
 .fondo-icono-contacto i {
-    font-size: 1.7rem;
     color: var(--colorSubtitulos);
+    font-size: 1.7rem;
 }
 
 .info-contacto .subt-contacto {
     color: black;
-    font-size: 2rem;
     font-family: var(--fuentePrimaria);
+    font-size: 2rem;
 }
 .mapa {
-    width: 90%;
+    align-self: center;
     height: 300px;
     margin-top: 2rem;
-    align-self: center;
+    width: 90%;
 }
 
 .area-de-form {
-    width: 80vw;
-    border-radius: 0px;
     background: white;
-    box-shadow:  6px 6px 12px #8b8b8b,
-                -6px -6px 12px #ffffff;
-    margin: 3rem 0rem 3rem 0rem;
+    border-radius: 0px;
     border-radius: 2rem;
+    box-shadow:  6px 6px 12px #8b8b8b, -6px -6px 12px #ffffff;
+    margin: 3rem 0rem 3rem 0rem;
+    width: 80vw;
 }
 
 form {
-    padding: 0.5rem 2rem 3rem 2rem;
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    padding: 0.5rem 2rem 3rem 2rem;
 }
 
 form .box-name-email {
@@ -84,14 +82,14 @@ form div label {
     font-weight: 300;
 }
 form button {
-    margin-top: 1rem;
-    background-color: var(--colorSubtitulos);
-    border: none;
-    width: 120px;
-    height: 40px;
-    border-radius: 5px;
     align-self: center;
+    background-color: var(--colorSubtitulos);
+    border-radius: 5px;
+    border: none;
     cursor: pointer;
+    height: 40px;
+    margin-top: 1rem;
+    width: 120px;
 }
 
 button:active {
@@ -120,18 +118,19 @@ input:focus {
 }
 
 .error-name, .error-email, .error-tema, .error-msj {
-    width: 100%;
-    height: 2rem;
-    border: 0.5px solid red;
     background-color: #f2bfc1; 
+    border: 0.5px solid red;
+    height: 2rem;
     visibility: hidden;
+    width: 100%;
 }
 
 .error-name p, .error-email p, .error-tema p, .error-msj p {
     color: red;
-    margin-left: 1rem;
-    font-weight: 400;
     font-size: 1.2rem;
+    font-weight: 400;
+    margin-left: 1rem;
+
 }
 
 @keyframes rotar {
@@ -144,8 +143,8 @@ input:focus {
 }
 
 .cargando {
-    width: 25px;
     animation: rotar 2s;
+    width: 25px;
 }
 
 /* -------------- Media query para tablet --------------  */
@@ -153,8 +152,8 @@ input:focus {
 @media (min-width: 767px) {
 
 #contacto article {
-    width: 717px;
     margin: auto;
+    width: 717px;
 }
 
 .area-de-form .box-name-email {
@@ -182,14 +181,14 @@ input:focus {
 #contacto article {
     display: flex;
     gap: 5rem;
-    width: 80vw;
-    max-width: 1200px;
     justify-content: center;
+    max-width: 1200px;
+    width: 80vw;
 }
 
 .area-de-form, .informacion-de-contacto {
-    width: 35vw;
     min-width: 450px;
+    width: 35vw;
 }
 
 button {

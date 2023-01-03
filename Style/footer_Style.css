@@ -1,12 +1,12 @@
 footer {
-    width: 100%;
-    height: 75px;
+    align-items: center;
     background-color: var(--colorSubtitulos);
     display: flex;
     flex-direction: column;
-    align-items: center;
+    height: 75px;
     justify-content: space-evenly;
     padding-bottom: 1rem;
+    width: 100%;
 }
 
 .autor {
@@ -37,18 +37,18 @@ footer {
 }
 
 .circulo-icono-footer {
-    width: 35px;
-    height: 35px;
+    align-items: center;
     background-color: white;
     border-radius: 50%;
     display: flex;
-    align-items: center;
+    height: 35px;
     justify-content: center;
+    width: 35px;
 }
 
 .circulo-icono-footer i {
-    font-size: 2rem;
     color: var(--colorSubtitulos);
+    font-size: 2rem;
 }
 
 .iconos-footer a :hover {
@@ -61,9 +61,9 @@ footer {
 @media (min-width: 767px) {
 
 footer {
-    margin-top: 4rem;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 4rem;
     padding: 0rem 8rem 0rem 3rem;
 }
     

@@ -2,23 +2,23 @@
 @import url("https://use.fontawesome.com/releases/v6.2.1/css/all.css");
 
 * {
-    padding: 0%;
-    margin: 0;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
 }
 
 :root {
-    --colorPrimarioFondo: #040b14;
-    --colorFuenteHeader: lightgray;
-    --colorSubtitulos: #149ddd;
-    --fuentePrimaria: 'Kanit', sans-serif;
-    --fuentePortada: 'Silkscreen', cursive;
-    --tamanioFuenteH2: 2.5rem;
     --backgroundPortfolio: rgba(20, 157, 221, 0.1); 
+    --colorFuenteHeader: lightgray;
+    --colorPrimarioFondo: #040b14;
+    --colorSubtitulos: #149ddd;
+    --fuentePortada: 'Silkscreen', cursive;
+    --fuentePrimaria: 'Kanit', sans-serif;
+    --tamanioFuenteH2: 2.5rem;
 }
 
 html {
-    font-size: 62.5%;
     font-family: var(--fuentePrimaria);
+    font-size: 62.5%;
     scroll-behavior: smooth;
 }

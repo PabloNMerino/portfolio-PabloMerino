@@ -3,8 +3,8 @@ main #sobre-mi {
 }
 
 main #portfolio {
-    padding: 0rem 2rem;
     margin-top: 2rem;
+    padding: 0rem 2rem;
 }
 
 main #contacto {
@@ -20,9 +20,9 @@ main {
 @media (min-width: 1024px) {
     
     main #portfolio {
+        border-radius: 20px;
         box-sizing: border-box;
         max-width: 1620px;
-        border-radius: 20px;
     }
 
     main #contacto {

@@ -1,15 +1,15 @@
 h2 {
-    font-size: var(--tamanioFuenteH2);
     color: var(--colorSubtitulos);
+    font-size: var(--tamanioFuenteH2);
     font-weight: 400;
     margin: 2rem 0rem 0.5rem 0rem
 }
 
 .separador {
-    width: 50px;
-    height: 3px;
     background-color: var(--colorSubtitulos);
+    height: 3px;
     margin-bottom: 1rem;
+    width: 50px;
 }
 
 /*----Texto de presentacion----*/
@@ -25,10 +25,10 @@ h2 {
 }
 
 .descargable a {
-    text-decoration: none;
-    display: flex;
     align-items: center;
+    display: flex;
     gap: 1rem;
+    text-decoration: none;
 }
 
 .descargable a p {
@@ -49,10 +49,10 @@ h2 {
     margin-top: 2rem;
 }
 .dato-personal {
-    list-style: none;
-    display: flex;
     align-items: center;
+    display: flex;
     gap: 0.5rem;
+    list-style: none;
     margin-top: 1rem;
 }
 
@@ -77,29 +77,28 @@ h2 {
 
 .tecnologias {
     display: flex;
-    gap: 1rem;
     flex-wrap: wrap;
-    margin: 2rem 0rem;
+    gap: 1rem;
     justify-content: center;
+    margin: 2rem 0rem;
 }
 .caja {
-    width: 150px;
-    height: 200px;
-    border-radius: 50px;
+    align-items: center;
     background: #e0e0e0;
-    box-shadow:  20px 20px 60px #bebebe,
-                -20px -20px 60px #ffffff;
+    border-radius: 50px;
+    box-shadow:  20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    height: 200px;
     justify-content: space-evenly;
     text-align: center;
+    width: 150px;
 }
 
 .caja p {
-    font-weight: 400;
-    font-size: 1.5rem;
     color: var(--colorSubtitulos);
+    font-size: 1.5rem;
+    font-weight: 400;
     margin: 0rem 1rem;
 }
 .caja img {
@@ -117,21 +116,21 @@ h2 {
 }
 
 .box-formacion {
-    margin-top: 3rem;
     display: flex;
     flex-direction: column;
+    margin-top: 3rem;
 }
 
 .titulo-formacion {
-    display: flex;
     align-items: center;
+    display: flex;
     gap: 1rem;
 }
 
 .marcador {
-    width: 6px;
-    height: 25px;
     background: linear-gradient(180deg, rgba(20,157,221,1) 0%, rgba(219,217,217,1) 86%);
+    height: 25px;
+    width: 6px;
 }
 
 h3 {
@@ -145,20 +144,20 @@ h3 {
 }
 
 .anio {
-    background-color: var(--colorSubtitulos);
-    width: 180px;
-    height: 20px;
-    display: flex;
     align-items: center;
-    justify-content: center;
+    background-color: var(--colorSubtitulos);
     border-radius: 3rem;
+    display: flex;
+    height: 20px;
+    justify-content: center;
     opacity: 0.7;
+    width: 180px;
 }
 
 .anio p {
-    font-weight: 400;
     color: white;
     font-size: 1.3rem;
+    font-weight: 400;
 }
 
 .formacion-info {
@@ -167,8 +166,8 @@ h3 {
 }
 
 .formacion-info .item {
-    display: flex;
     align-items: center;
+    display: flex;
     gap: 1rem;
 }
 
@@ -181,8 +180,8 @@ h3 {
 }
 
 .box-formacion img {
-    width: 300px;
     margin: 1rem 0rem 0rem 1.7rem;
+    width: 300px;
 }
 
 /* -------------- Media query para tablet --------------  */
@@ -213,9 +212,9 @@ h3 {
     }
 
     .box-formacion {
-        padding: 1rem 0rem 2rem 1rem;
         background-color: #e4f3f7;
         border-radius: 10px;
+        padding: 1rem 0rem 2rem 1rem;
     }
 
     .box-formacion img {

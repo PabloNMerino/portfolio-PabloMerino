@@ -16,9 +16,9 @@
 .proyectos {
     display: flex;
     flex-wrap: wrap;
-    margin: 2rem 0rem;
     gap: 1rem;
     justify-content: center;
+    margin: 2rem 0rem;
 }
 
 #portfolio article {
