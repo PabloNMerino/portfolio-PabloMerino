@@ -87,6 +87,7 @@ const confirmarEnvio = () => {
         boton.style.backgroundColor = "green"
         formulario.reset();
         boton.disabled = true;
+        boton.style.cursor = "default"
     }, 1000);
     
 }
