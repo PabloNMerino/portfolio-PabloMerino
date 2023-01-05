@@ -35,11 +35,11 @@
 
 
 .yo .tipeado-mobile {
-    width: 288px;
-    height: 40px;
     background-color: rgba(44, 47, 63, 0.3);
     border-radius: 5px;
+    height: 40px;
     margin-bottom: 3rem;
+    width: 288px;
 }
 
 .yo .tipeado-mobile .tipeado{
