@@ -27,11 +27,24 @@
     width: 200px;
 }
 
-
 .yo .mi-nombre {
     color: var(--colorFuenteHeader);
     font-size: 3rem;
     font-weight: 400;
+}
+
+
+.yo .tipeado-mobile {
+    width: 288px;
+    height: 40px;
+    background-color: rgba(44, 47, 63, 0.3);
+    border-radius: 5px;
+    margin-bottom: 3rem;
+}
+
+.yo .tipeado-mobile .tipeado{
+    font-size: 2.4rem;
+    text-align: start;
 }
 
 .opciones-de-navegacion ul {
@@ -133,8 +146,12 @@ ul li .opciones{
 
 @media (min-width: 767px) {
 
-    ul li .opciones {
+    ul li .opciones, .yo .tipeado-mobile {
         width: 400px;
+    }
+
+    .yo .tipeado-mobile .tipeado{
+        margin-left: 20%;
     }
 
     .enlace-boton {
@@ -196,6 +213,7 @@ ul li .opciones{
     padding: 0rem 3rem;
 }
 
+
 header .yo {
     flex-direction: row;
 }
@@ -208,6 +226,10 @@ header .yo {
 
 .yo .mi-nombre {
     font-size: 2rem;
+}
+
+.yo .tipeado-mobile {
+    display: none;
 }
 
 header .opciones-de-navegacion ul {
