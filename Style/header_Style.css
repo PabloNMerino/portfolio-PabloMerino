@@ -146,7 +146,7 @@ ul li .opciones{
 
 @media (min-width: 767px) {
 
-    ul li .opciones, .yo .tipeado-mobile {
+    ul li .opciones ,.yo .tipeado-mobile {
         width: 400px;
     }
 
