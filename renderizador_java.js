@@ -1,5 +1,11 @@
 const objJava = [
     {
+        titulo: "Dining Review App",
+        imgUrl: "img/dinner.png",
+        alt: "icono de dinning app",
+        url: "https://github.com/PabloNMerino/JAVA/tree/main/Dining-App"
+    },
+    {
         titulo: "Almacen y productos",
         imgUrl: "img/almacen.png",
         alt: "icono de almacen y productos",
