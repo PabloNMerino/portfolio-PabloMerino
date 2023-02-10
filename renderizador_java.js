@@ -48,6 +48,12 @@ const objJava = [
         url: "https://github.com/PabloNMerino/Ejercicios-JAVA/tree/main/Propiedades%20-%20Examen%20final%20DH%20-%20patron%20singleton%2C%20factory%20y%20composite"
     },
     {
+        titulo: "Cajero Automatico",
+        imgUrl: "img/efectivo.png",
+        alt: "cajero automatico ",
+        url: "https://github.com/PabloNMerino/JAVA/tree/main/Cajero%20automatico%20Facade"
+    },
+    {
         titulo: "Trenes y vagones",
         imgUrl: "img/entrenar.png",
         alt: "tren y vagon",
