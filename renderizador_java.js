@@ -30,6 +30,54 @@ const objJava = [
         url: "https://github.com/PabloNMerino/Ejercicios-JAVA/tree/main/Curso%20y%20programas%20-%20patron%20singleton%2C%20factory%20y%20composite"
     },
     {
+        titulo: "Empleados y Afiliados",
+        imgUrl: "img/employee.png",
+        alt: "Empleados y afiliados",
+        url: "https://github.com/PabloNMerino/JAVA/tree/main/Empleados%20y%20afiliados"
+    },
+    {
+        titulo: "Diputados, Ministros y Presidente",
+        imgUrl: "img/mayor.png",
+        alt: "Diputados, Ministros y Presidente",
+        url: "https://github.com/PabloNMerino/JAVA/tree/main/Diputados%2C%20ministros%20y%20presidente"
+    },
+    {
+        titulo: "Control de Calidad de Productos",
+        imgUrl: "img/quality-control.png",
+        alt: "Cadena de produccion",
+        url: "https://github.com/PabloNMerino/JAVA/tree/main/Control%20de%20Calidad"
+    },
+    {
+        titulo: "Lista de Reproduccion",
+        imgUrl: "img/playlist.png",
+        alt: "Playlist",
+        url: "https://github.com/PabloNMerino/JAVA/tree/main/Lista%20de%20Reproduccion"
+    },
+    {
+        titulo: "Servicio de Turismo",
+        imgUrl: "img/destino.png",
+        alt: "Telefono y viajes",
+        url: "https://github.com/PabloNMerino/JAVA/tree/main/Servicio%20de%20turismo"
+    },
+    {
+        titulo: "Turno para Vacunarse",
+        imgUrl: "img/vaccination.png",
+        alt: "Mujer vacunandose",
+        url: "https://github.com/PabloNMerino/JAVA/tree/main/Turno%20para%20Vacunacion"
+    },
+    {
+        titulo: "Leon y Tigre (Log4j)",
+        imgUrl: "img/lion.png",
+        alt: "Leon",
+        url: "https://github.com/PabloNMerino/JAVA/tree/main/Leon%20y%20tigre%20(Log4j)"
+    },
+    {
+        titulo: "Drive Storage",
+        imgUrl: "img/cloud-storage.png",
+        alt: "nube y clientes",
+        url: "https://github.com/PabloNMerino/JAVA/tree/main/Servicio%20Drive"
+    },
+    {
         titulo: "Juego robots",
         imgUrl: "img/robot.png",
         alt: "robot",
@@ -50,8 +98,14 @@ const objJava = [
     {
         titulo: "Cajero Automatico",
         imgUrl: "img/efectivo.png",
-        alt: "cajero automatico ",
+        alt: "cajero automatico",
         url: "https://github.com/PabloNMerino/JAVA/tree/main/Cajero%20automatico%20Facade"
+    },
+    {
+        titulo: "Calculador de Promedios (Log4j)",
+        imgUrl: "img/average.png",
+        alt: "Promedio",
+        url: "https://github.com/PabloNMerino/JAVA/tree/main/Calculador%20de%20promedios%20(Log4j)"
     },
     {
         titulo: "Trenes y vagones",
