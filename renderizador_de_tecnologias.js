@@ -50,7 +50,7 @@ const tarjetasTecnologias = [
         nombreDeTecnologia: "mySQL"
     },
     {
-        imgUrl: "img/mongodb.png.svg",
+        imgUrl: "img/mongodb.png",
         alt: "mongoDB",
         nombreDeTecnologia: "MongoDB"
     },
