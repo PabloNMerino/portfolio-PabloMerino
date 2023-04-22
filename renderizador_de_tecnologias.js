@@ -10,9 +10,19 @@ const tarjetasTecnologias = [
         nombreDeTecnologia: "CSS"  
     },
     {
+        imgUrl: "img/bootstrap.png",
+        alt: "Bootstrap",
+        nombreDeTecnologia: "Bootstrap"  
+    },
+    {
         imgUrl: "img/sass.png",
         alt: "sass",
         nombreDeTecnologia: "SASS"  
+    },
+    {
+        imgUrl: "img/figma.png",
+        alt: "figma",
+        nombreDeTecnologia: "Figma"  
     },
     {
         imgUrl: "img/js.png",
@@ -30,14 +40,29 @@ const tarjetasTecnologias = [
         nombreDeTecnologia: "Spring boot"
     },
     {
+        imgUrl: "img/hibernate.png",
+        alt: "Hibernate",
+        nombreDeTecnologia: "Hibernate"
+    },
+    {
         imgUrl: "img/mysql-official.svg",
         alt: "mysql",
         nombreDeTecnologia: "mySQL"
     },
     {
+        imgUrl: "img/mongodb.png.svg",
+        alt: "mongoDB",
+        nombreDeTecnologia: "MongoDB"
+    },
+    {
         imgUrl: "img/testing.png",
         alt: "testing",
         nombreDeTecnologia: "Testing"
+    },
+    {
+        imgUrl: "img/interfaz-de-usuario.png",
+        alt: "ux/ui",
+        nombreDeTecnologia: "UX/UI"
     },
     {
         imgUrl: "img/agil.png",

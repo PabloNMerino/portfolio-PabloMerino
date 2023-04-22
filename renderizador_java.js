@@ -118,6 +118,18 @@ const objJava = [
         imgUrl: "img/barco-mercante.png",
         alt: "barco con contenedores",
         url: "https://github.com/PabloNMerino/Ejercicios-JAVA/tree/main/contenedores%20y%20sus%20origenes%20-%20ordenado%20y%20desordenado"
+    },
+    {
+        titulo: "Partidos de Futbol - NoSQL",
+        imgUrl: "img/soccer-field.png",
+        alt: "campo de futbol",
+        url: "https://github.com/PabloNMerino/JAVA/tree/main/Partidos%20de%20futbol"
+    },
+    {
+        titulo: "Gestion de turnos - Proyecto integrador",
+        imgUrl: "img/dentista.png",
+        alt: "dentista icono",
+        url: "https://github.com/PabloNMerino/JAVA/tree/main/Proyecto%20integrador%20Backend/ClinicaOdontologica"
     }
 ]
 

@@ -28,6 +28,12 @@ const proyectosJs = [
         imgUrl: "img/spellbook.png",
         url: "https://github.com/PabloNMerino/Front-end-2---JS/tree/main/Formulario%20Inscripcion%20a%20Hogwarts",
         descripcion: "logo formulario registro"
+    },
+    {
+        titulo: "Gestion de turnos - Proyecto integrador",
+        imgUrl: "img/dentista.png",
+        alt: "dentista icono",
+        url: "https://github.com/PabloNMerino/JAVA/tree/main/Proyecto%20integrador%20Backend/ClinicaOdontologica"
     }
 ]
 
