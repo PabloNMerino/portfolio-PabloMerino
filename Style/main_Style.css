@@ -19,6 +19,9 @@ main {
 
 @media (min-width: 1024px) {
     
+    main #sobre-mi {
+        max-width: 1620px;
+    }
     main #portfolio {
         border-radius: 20px;
         box-sizing: border-box;

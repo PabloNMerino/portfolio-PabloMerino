@@ -30,6 +30,11 @@ const tarjetasTecnologias = [
         nombreDeTecnologia: "Javascript"
     },
     {
+        imgUrl: "img/react.png",
+        alt: "React",
+        nombreDeTecnologia: "React"  
+    },
+    {
         imgUrl: "img/java.png",
         alt: "java",
         nombreDeTecnologia: "Java"
