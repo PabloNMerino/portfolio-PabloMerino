@@ -177,12 +177,16 @@ h3 {
 
 .instituto, .anio, .formacion-info {
     margin: 0.5rem 0rem 0rem 1.7rem;
+    
 }
 
 .box-formacion img {
     margin: 1rem 0rem 0rem 1.7rem;
     width: 300px;
+    height: auto;
+    align-self: center;
 }
+
 
 /* -------------- Media query para tablet --------------  */
 
